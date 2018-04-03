@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 15px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 30px;
+  color: rgb(100, 8, 88);
+}
+
+.tablecss {
+  border: 1px  black solid;
+  padding: 10px;
+  margin: 10px;
+}
+.tableprecios {
+  border: 1px  black solid;
+  color: rgb(187, 71, 36);
+  font-weight: bolder;
+}
+
+.lengthInput {
+  width: 48px;
+}
+.menuNav {
+  color: indigo;
+  text-align: right;
+}
+
