@@ -16,5 +16,12 @@ this is just a way to practice my knowledge of *reactjs*, I decide to convert my
 ---
 
 <p>
-    I need only to update , to take the value of the input , and make it become the prices,
+    you can edit the price, change the current price
 </p>
+
+## next comming feature
+
+1. menu or side bar
+2. a drop down menu
+3. save on database the value of the price
+4. also will put a pic of the busness
