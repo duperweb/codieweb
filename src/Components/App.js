@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from "./Header"
 import Table from './Table';
-import Footer from './Footer';
+//import Sidemenu from './Sidemenu';
+import NavMenu from './NavMenu';
+
 
 class App extends Component {
   render() {
@@ -12,9 +14,13 @@ class App extends Component {
           <Header />
         </header>
         <main className="App">
-          <Table />
+          <section>
+            <Table />
+          </section>
         </main>
-            <Footer />
+        <footer>
+          <NavMenu />
+        </footer>
       </div>
     );
   }

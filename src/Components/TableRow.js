@@ -1,3 +1,4 @@
+// IMPORTING COMPONENT
 import React from "react";
 import './App.css';
 

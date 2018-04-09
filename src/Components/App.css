@@ -1,3 +1,15 @@
+ul {
+  list-style: none;
+}
+ul > li {
+  display: inline;
+  padding: 10px;
+  border: 1px solid indigo;
+}
+button {
+  background: rebeccapurple;
+  color: white;
+}
 .App {
   text-align: center;
   padding: 15px;
