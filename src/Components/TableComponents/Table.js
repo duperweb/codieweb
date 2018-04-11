@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import '../App.css';
 import datable from "./datable";
 import TableRow from "./TableRow";
 
@@ -9,7 +9,6 @@ var tableContainerStyle = {
     textAlign: "center",
     margin: '20px auto',
 }
-
 
 class Table extends React.Component {
     constructor(props) {
@@ -22,8 +21,7 @@ class Table extends React.Component {
         return (
             <table style={tableContainerStyle} className="tablecss">
                 <tbody>
-                    {this.state.data.map((item, i) => <TableRow key={i} data
-                        ={item} />)}
+                    {this.state.data.map((item, i) => <TableRow key={i} data = {item} />)}
                 </tbody>
             </table>
         )

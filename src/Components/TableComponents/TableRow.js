@@ -1,13 +1,13 @@
 // IMPORTING COMPONENT
 import React from "react";
-import './App.css';
+import '../App.css';
 
 class TableRow extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             editing: false,
-            inputValue: this.props.data.precios 
+            inputValue: this.props.data.precios
         }
         this.edit = this.edit.bind(this);
         this.save = this.save.bind(this);
@@ -41,7 +41,7 @@ class TableRow extends React.Component {
     }
     renderForm() {
         return (
-            <tr> 
+            <tr>
                 <td className="tablecss">{this.props.data.servicios}</td>
                 <td>
                     <input type="text" ref="newText" className="lengthInput"

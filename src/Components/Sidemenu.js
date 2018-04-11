@@ -1,6 +1,6 @@
 import React from "react";
 
-const  MenuList = extends React.Component {
+class  MenuList  extends React.Component {
     render() {
         const listItem = [
             "diseño pagina web",

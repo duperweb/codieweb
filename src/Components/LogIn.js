@@ -1,9 +1,14 @@
 import React from 'react';
 
 
-var name = prompt("enter aname")
-function UserGreeting(props) {
-    return <h1> Welcome + {name} </h1>
+class LoginPage extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1> heloo world </h1>
+            </div>
+        )
+    }
 }
 
-export default UserGreeting;
+export default LoginPage;
